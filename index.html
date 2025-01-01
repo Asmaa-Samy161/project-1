@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg bg-body-tertiary fixed-top bg-opacity-50">
+            <div class="container">
+              <a class="navbar-brand" href="#">
+                <img src="images/mlogo.png" height="50" alt="">
+                mizuxe
+              </a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <div class="navbar-nav ms-auto">
+                  <a class="nav-link active" aria-current="page" href="#">Home</a>
+                  <a class="nav-link" href="#">About</a>
+                  <a class="nav-link" href="#">meet the author </a>
+                  <a class="nav-link" href="#">contact </a>
+                </div><!--nav link-->
+              </div>
+            </div>
+          </nav><!--nav-->
+        <div class="container ">
+            <div class="row">
+                <div class="col-md-6 text-center text-white">
+                    <h1 class="display-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio, illo?</h1>
+                    <a href="#" class="btn btn-outline-light"><i class="fa-solid fa-arrow-right"></i>Read More</a>
+                </div><!--left-->
+                <div class="col-md-6 text-center">
+                  <img src="images/book.png"class="img-fluid" alt="">
+                </div><!--right-->
+            </div><!--row-->
+        </div><!--container-->
+    </header>
+
+    <section class="bg-dark py-5">
+      <div class="container">
+        <form onsubmit="validate()">
+          <div class="row">
+            <div class="col-md-4 mb-3">
+              <input type="text" id="name" class="form-control form-control-lg" placeholder="Name">
+            </div><!--name-->
+            <div class="col-md-4 mb-3">
+              <input type="email" id="email" class="form-control form-control-lg" placeholder="Email">
+            </div><!--email-->
+            <div class="col-md-4">
+              <button type="submit" class="btn btn-primary btn-lg w-100"><i class="fa-regular fa-envelope"></i>subscribe</button>
+            </div><!--subscribe-->
+          </div><!--row-->
+        </form><!--form-->
+      </div><!--container-->
+    </section>
+
+    <section class="py-5 bg-light">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-4 col-lg-3 pb-3">
+            <div class="card text-center p-3 border-primary">
+              <h4 class="text-info">Be Better</h4>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione, explicabo!</p>
+            </div><!--card-->
+          </div><!--col1-->
+          <div class="col-md-4 col-lg-3 pb-3">
+            <div class="card text-center p-3 border-primary bg-primary">
+              <h4>Be Smarter</h4>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione, explicabo!</p>
+            </div><!--card-->
+          </div><!--col2-->
+          <div class="col-md-4 col-lg-3 pb-3">
+            <div class="card text-center p-3 border-primary">
+              <h4 class="text-info">Be Faster</h4>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione, explicabo!</p>
+            </div><!--card-->
+          </div><!--col3-->
+          <div class="col-md-4 col-lg-3 pb-3">
+            <div class="card text-center p-3 border-primary bg-primary">
+              <h4>Be Stronger</h4>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione, explicabo!</p>
+            </div><!--card-->
+          </div><!--col4-->
+        </div><!--row-->
+      </div><!--container-->
+    </section>
+
+    <section class="py-5 w-50 text-center mx-auto">
+      <div class="container">
+        <div class="row">
+          <div class="col text-center">
+            <h2 class="text-primary">why this book?</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias ipsum exercitationem nisi odit temporibus accusantium!</p>
+            <hr>
+            <div class="accordion accordion-flush" id="accordionFlushExample">
+              <div class="accordion-item">
+                <h2 class="accordion-header">
+                  <button class="accordion-button collapsed text-primary" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+                    <i class="fa-solid fa-arrow-down"></i><span>get inspired</span>
+                  </button>
+                </h2>
+                <div id="flush-collapseOne" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                  <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the first item's accordion body.</div>
+                </div>
+              </div>
+              <div class="accordion-item">
+                <h2 class="accordion-header">
+                  <button class="accordion-button collapsed text-primary" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+                    <i class="fa-solid fa-arrow-down"></i><span>Gain the knowledge</span>
+                  </button>
+                </h2>
+                <div id="flush-collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                  <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the second item's accordion body. Let's imagine this being filled with some actual content.</div>
+                </div>
+              </div>
+              <div class="accordion-item">
+                <h2 class="accordion-header">
+                  <button class="accordion-button collapsed text-primary 
+                  " type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+                    <i class="fa-solid fa-arrow-down rounded-circle"></i><span>open your mind</span>
+                  </button>
+                </h2>
+                <div id="flush-collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                  <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the third item's accordion body. Nothing more exciting happening here in terms of content, but just filling up the space to make it look, at least at first glance, a bit more representative of how this would look in a real-world application.</div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+    <section class="py-5 " id="author">
+      <div class="container">
+        <div class="section-top w-50 mx-auto text-center border-bottom border-2 pb-3">
+          <h2 class="text-primary">Meet The Authors</h2>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum quae sapiente odio voluptates dolores ducimus.</p>
+        </div>
+        <div class="row">
+          <div class="col-lg-3 col-md-4 col-sm-6 my-5">
+            <div class="card py-3 text-center my-3">
+              <img src="images/person1.jpg" class="w-50 mx-auto rounded-circle" alt="">
+              <h3>Susan williams</h3>
+              <h5 class="text-secondary">lead writer</h5>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel, rem.</p>
+              <div class="d-flex justify-content-evenly">
+                <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                <a href="#"><i class="fa-brands fa-google-plus-g"></i></a>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-4 col-sm-6 my-5">
+            <div class="card py-3 text-center my-3">
+              <img src="images/person2.jpg" class="w-50 mx-auto rounded-circle" alt="">
+              <h3>Grace Smith</h3>
+              <h5 class="text-secondary">Co-Writer</h5>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel, rem.</p>
+              <div class="d-flex justify-content-evenly">
+                <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                <a href="#"><i class="fa-brands fa-google-plus-g"></i></a>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-4 col-sm-6 my-5">
+            <div class="card py-3 text-center my-3">
+              <img src="images/person3.jpg" class="w-50 mx-auto rounded-circle" alt="">
+              <h3>john Doe</h3>
+              <h5 class="text-secondary">Editor</h5>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel, rem.</p>
+              <div class="d-flex justify-content-evenly">
+                <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                <a href="#"><i class="fa-brands fa-google-plus-g"></i></a>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-4 col-sm-6 my-5">
+            <div class="card py-3 text-center my-3">
+              <img src="images/person4.jpg" class="w-50 mx-auto rounded-circle" alt="">
+              <h3>Kevin Swanson</h3>
+              <h5 class="text-secondary">Artist</h5>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel, rem.</p>
+              <div class="d-flex justify-content-evenly">
+                <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                <a href="#"><i class="fa-brands fa-google-plus-g"></i></a>
+              </div>
+            </div><!--card4-->
+          </div><!--col4-->
+        </div><!--row-->
+      </div><!--container-->
+    </section><!--author-->
+    <section class="py-3">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-9">
+            <h2>Get in Toutch</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus repudiandae mollitia suscipit quis impedit,</p>
+            <form action="">
+              <div class="input-group mb-3">
+                <span class="input-group-text" id="basic-addon1"><i class="fa-solid fa-person"></i></span>
+                <input type="text" class="form-control" placeholder="Username" >
+              </div>
+              <div class="input-group mb-3">
+                <span class="input-group-text" id="basic-addon1"><i class="fa-solid fa-envelope"></i></span>
+                <input type="text" class="form-control" placeholder="Username" >
+              </div>
+              <div class="input-group mb-3">
+                <span class="input-group-text" id="basic-addon1"><i class="fa-solid fa-pen"></i></span>
+                <textarea type="text" class="form-control" placeholder="messege" ></textarea>
+              </div>
+            </form>
+            <button type="submit" class="col-12 btn btn-primary">Submit</button>
+          </div>
+          <div class="col-md-3">
+            <img src="images/mlogo.png" alt="" class="img-fluid">
+          </div>
+        </div>
+      </div>
+    </section>
+    <footer class="bg-primary py-5">
+      <div class="d-flex justify-content-center">
+        <a href="#" class="text-white mx-2"><i class="fa-brands fa-facebook"></i></a>
+        <a href="#"  class="text-white mx-2"><i class="fa-brands fa-twitter"></i></a>
+        <a href="#"  class="text-white mx-2"><i class="fa-brands fa-google-plus-g"></i></a>
+      </div>
+    </footer>
+    <div class="container">
+      <button id="btnTop" class="btn btn-primary rounded-circle topBtn"><i class="fa-solid fa-arrow-up"></i></button>
+    </div>
+    <script src="js/bootstrap.bundle.js"></script>
+    <script src="js/script.js"></script>
+</body>
+</html>

@@ -1,0 +1,22 @@
+header{
+    min-height: 100vh;
+    background: linear-gradient(rgba(50, 131, 168, 0.6),rgba(50, 131, 168, 0.6))
+    ,url(../images/mountains.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 150px;
+}
+
+#author img{
+    margin-top: -70px;
+}
+.topBtn{
+    height: 30px;
+    right: 5px;
+    bottom: 50px;
+    cursor: pointer;
+    position: fixed;
+    display: none;
+    z-index: 99999;
+}
